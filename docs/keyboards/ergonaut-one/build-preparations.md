@@ -75,7 +75,7 @@ You'd need some additional hardware to assemble your case:
 | ----------------------------- | --- | ---------------------------------------------------------------------------------------- |
 | M2 8mm Flat Countersunk Screw | 8   | [Aliexpress](https://aliexpress.com/item/32975242274.html?sku_id=66696774380)            |
 | M2 Hex Nut                    | 8   | [Aliexpress](https://aliexpress.com/item/1005003994209489.html?sku_id=12000027676602569) |
-| Silicone Feet Pads 8mmx2.5mm  | 8   | [Aliexpress](https://aliexpress.com/item/32750517847.html)                               |
+| Silicone Feet Pads 8mmx2.5mm  | 8   | [Aliexpress](https://aliexpress.com/item/3256802433818462.html)                               |
 
 #### Printing
 
