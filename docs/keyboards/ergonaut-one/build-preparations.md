@@ -60,9 +60,12 @@ You can choose to use one of three provided variants of the case:
 
 You'd probably need:
 
-* FDM 3D Printer or a friend with a printer;
+* FDM 3D Printer, a friend with a printer, or an online 3D printing service;
 * **[ONLY FOR CLASSIC CASE]** Scalpel or some other cutting tool to remove included supports;
 * **[OPTIONAL]** Deburring tool.
+
+[JLCPCB](https://jlcpcb.com/) and [PCBWay](https://www.pcbway.com/) also provide 3D printing services,
+so you can order your case along with PCBs if you do not have access to a 3D printer.
 
 #### BOM
 
@@ -92,6 +95,21 @@ Choose your desired case variant (Classic or Modern) and print four parts:
 * Left Bottom;
 * Right Bottom (model should be mirrored by X axis in slicer).
 
+If you are using a online 3D printing service, you can easily mirror the STL
+with [this online tool](https://stl-mirror.beekeeb.com/). This will give you
+3 options to mirror the STL file, choose the one that mirrors the model by the
+X axis which is labeled "yz".
+
+:::note
+
+You may receive a message from online services that require confirmation to
+continue with the print due to the thin walls increasing the risk of potential
+damage or issues in the printing process.
+In the case of printing PA12 Nylon MJF from JLCPCB, the case was printed without
+any issues but your mileage may vary.
+
+:::
+
 ### 3D Printed Modern Case
 
 | Front                                                  | Back                                                  |
@@ -108,12 +126,20 @@ Choose your desired case variant (Classic or Modern) and print four parts:
 | -------------------------------------------------------- | ------------------------------------------------------- |
 | ![3D Printed Classic Case Front](/img/one_classic_1.jpg) | ![3D Printed Classic Case Back](/img/one_classic_2.jpg) |
 
-**Note: this model contains included bed adhesion-improving supports, which should be removed after print.**
+:::note
+
+This model contains included bed adhesion-improving supports, which should be removed after print.
+
+:::
 
 | Bottom part placement                                          | Top part placement                                             |
 | -------------------------------------------------------------- | -------------------------------------------------------------- |
 | ![3D Printed Classic Case Bot](/img/one_classic_bot_print.jpg) | ![3D Printed Classic Case Top](/img/one_classic_top_print.jpg) |
 
-**Note: After the print don't forget to remove included supports from the top parts. The image below for a reference:**
+:::note
+
+After the print don't forget to remove included supports from the top parts. The image below for a reference:
+
+:::
 
 ![3D Printed Classic Case Supports](/img/one_classic_top_supports.jpg)
